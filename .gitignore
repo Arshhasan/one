@@ -5,10 +5,13 @@
 *.swp
 .DS_Store
 .atom/
-# Ignore all build folders except build/web
-/build/
+
+# Ignore everything in build directory...
 /build/*
+# ...except the web folder
 !/build/web/
+!/build/web/**
+
 .buildlog/
 .history
 .svn/
